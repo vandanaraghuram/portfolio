@@ -1,0 +1,228 @@
+body {
+    background-image: url(./background1.jpg);
+}
+
+.navbar {
+    background-color: #baced7;
+
+}
+
+.navbar-nav {
+    margin-left: 58%;
+
+}
+
+
+.nav-item {
+    margin-left: 10%;
+    color: #ebedf1;
+}
+
+.nav-item:hover {
+    font-weight: bolder;
+    color: #0f2139;
+
+}
+
+.navbar-brand {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(42, 53, 102);
+}
+
+
+.div1 {
+    background-color: rgba(146, 201, 226, 0.808);
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 200px;
+    text-align: start;
+
+
+}
+
+.heading {
+    margin-top: 180px;
+    color: rgb(42, 53, 102);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.myname {
+    font-size: 50px;
+    color: rgb(42, 53, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+
+.cos {
+    font-size: 20px;
+    color: rgb(42, 53, 102);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    ;
+    font-weight: bold;
+    margin-top: 0;
+
+}
+
+@keyframes anim {
+    10% {
+        font-size: 23px;
+        color: rgb(18, 21, 24);
+    }
+}
+
+
+
+
+.cos:hover {
+    animation: anim 3s ease-out 1s infinite;
+}
+
+.hire {
+    color: rgb(24, 24, 82);
+}
+
+.resume {
+    color: rgb(219, 219, 231);
+}
+
+
+.div2 {
+    background-color: rgb(51, 86, 117);
+    margin-top: 30px;
+    text-align: start;
+    padding: 55px;
+
+    gap: 0px;
+
+}
+
+.heading2 {
+    margin-top: 115px;
+    color: rgb(239, 241, 248);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+
+.aboutt {
+    margin-left: 6%;
+}
+
+
+
+
+.aboutp {
+    background-color: rgba(146, 201, 226, 0.808);
+    transition: all ease-in-out 0.3s;
+}
+
+.aboutp:hover {
+
+    padding: 10px 10px 40px 10px;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+
+}
+
+.About-title {
+    color: rgb(232, 234, 244);
+    background-color: rgba(26, 101, 136, 0.855);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+    list-style: none;
+    margin-top: 3%;
+    color: #1a2233;
+
+}
+
+.content h3 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #173b6c;
+}
+
+.skills-title,
+.education-title,
+.works-title,
+.contact-title {
+    color: rgb(206, 211, 239);
+    background-color: rgba(26, 101, 136, 0.855);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+.progress {
+    width: 55%;
+}
+
+
+.skills {
+    background-color: rgba(146, 201, 226, 0.808);
+    color: #0f2139;
+    transition: all ease-in-out 0.3s;
+}
+
+.skills:hover {
+    padding: 10px 10px 40px 10px;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+
+}
+
+
+.box {
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+    background-color: rgba(146, 201, 226, 0.808);
+}
+
+.box h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #0f2139;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    ;
+}
+
+.box p {
+
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    color: #0f2139;
+}
+
+.box:hover {
+    background: #ebedf1;
+    padding: 30px 30px 70px 30px;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+.card {
+    background-color: rgba(146, 201, 226, 0.808);
+}
+
+
+footer {
+    background-color: rgb(51, 86, 117);
+    color: aliceblue;
+}
+
+
+footer {
+    color: #baced7;
+}
